@@ -1,0 +1,30 @@
+ul {
+    list-style-type: none;
+}
+
+.quote-container {
+    border-left: 3px solid #00cc8f;
+    color: #1a1a1a;
+    font-family: Georgia,Times,"Times New Roman",serif;
+    font-style: italic;
+    line-height: 1.8em;
+    padding: 1em 2em;
+    position: relative;
+    transition: .2s border ease-in-out;
+    z-index: 0;
+    font-size: 1em;
+    margin: 3em 2em;
+    background: #f9f9f9;
+}
+
+.quote-container button {
+    display: none;
+}
+
+.quote-container:hover {
+    height: 120px;
+}
+
+.quote-container:hover button {
+    display: block;
+}
